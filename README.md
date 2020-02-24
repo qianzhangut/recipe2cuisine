@@ -14,8 +14,10 @@ The data has 39774 non-null rows of recipes, 2 columns: cuisine and ingredients.
 | 3						| 22213         | indian        | [water, vegetable oil, wheat, salt]  |
 | 4		 				| 13162         | indian        | [black pepper, shallots, cornflour, cayenne pe...  |
 
-The distributin of cuisine types is
-![GitHub Logo](cuisine.png)
+There are totally 20 classes of cuisines, and Italian food has the most recipes. The distributin of cuisine types is
+
+<p align="center"><img src="https://github.com/qianzhangut/recipe2cuisine/blob/master/cuisine.png" width="500"/></p>
+
 
 
 
