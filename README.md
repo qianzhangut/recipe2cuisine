@@ -24,6 +24,8 @@ There are totally 20 classes of cuisines, and Italian food has the most recipes.
 
 
 
+
+
 | Mexican          		| Southern_US       | Indian        	  | Chinese         | 	Moroccan		|
 | ------------- 		| -------------     | -------------       | -------------   |------------- 		| 
 |corn tortillas         | buttermilk        | garam masala        |soy sauce        |ground cumin       |
