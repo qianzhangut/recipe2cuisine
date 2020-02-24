@@ -19,6 +19,20 @@ There are totally 20 classes of cuisines, and Italian food has the most recipes.
 <p align="center"><img src="https://github.com/qianzhangut/recipe2cuisine/blob/master/cuisine.png" width="500"/></p>
 
 
+## Solution
+To find the driving ingredients for each cuisine, I tried two methods: word frequency and impotant features.
+
+### Word Frequency
+Basically, the more often the ingredients are used, the more important they are to the cuisine. I used nltk to find the most frequently used ingredients for each cuisine. For example, the driving ingredients for Italian food are:
+
+<p align="center"><img src="https://github.com/qianzhangut/recipe2cuisine/blob/master/importance_nltk.png" width="500"/></p>
+
+However, it is difficult to identify the commonly used ingredients in all cuisines, such as salt, water, pepper, etc. This is hard to outsourced team to hand label the recipes.
+
+### Important Features 
+
+Generally, importance provides a score that indicates how useful or valuable each feature was in the construction of the boosted decision trees within the model. The more an attribute is used to make key decisions with decision trees, the higher its relative importance. The important features can be considered as the driving ingredients for the cuisines. 
+
 
 
 
