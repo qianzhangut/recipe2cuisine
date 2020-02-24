@@ -31,14 +31,12 @@ However, it is difficult to identify the commonly used ingredients in all cuisin
 
 ### Important Features 
 
-Generally, importance provides a score that indicates how useful or valuable each feature was in the construction of the boosted decision trees within the model. The more an attribute is used to make key decisions with decision trees, the higher its relative importance. The important features can be considered as the driving ingredients for the cuisines. 
+Generally, importance provides a score that indicates how useful or valuable each feature was in the construction of the boosted decision trees within the model. The more an attribute is used to make key decisions with decision trees, the higher its relative importance. The important features can be considered as the driving ingredients for the cuisines. To find the driving ingredient for each cuisine, I make the cuisine labels binary by setting one desired cuisine type as 1 and other 0, then I built tf-idf matrix for the ingredients as features and a random forest classification model to predict the binary outcome. Datasets were split 80% and 20% into train and test datasets respectively. Hyperparameter tuning was performed using Bayesian optimizaiton with 5-fold cross validation to obtain the optimized parameters for the model. Finanlly I exported the top 10 important features for the classification model, which can be considered as the most driving and representative ingredients for the desired cuisine:
 
 
+<p align="center"><img src="https://github.com/qianzhangut/recipe2cuisine/blob/master/importance_rf.png" width="500"/></p>
 
-
-
-
-
+The table below lists the top 5 driving ingredients for selected cuisines. Please see the complete list in the result file.
 
 | Mexican          		| Southern_US       | Indian        	  | Chinese         | 	Moroccan		|
 | ------------- 		| -------------     | -------------       | -------------   |------------- 		| 
