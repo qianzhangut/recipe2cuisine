@@ -36,12 +36,17 @@ Generally, importance provides a score that indicates how useful or valuable eac
 
 <p align="center"><img src="https://github.com/qianzhangut/recipe2cuisine/blob/master/importance_rf.png" width="500"/></p>
 
-The table below lists the top 5 driving ingredients for selected cuisines. Please see the complete list in the result file.
+After learning the top 10 driving ingredients for each cuisine from the classification results, the outsourced team would be able to label the rest of the recipes by identifying the driving ingredients from the guideline. The table below lists the top 5 driving ingredients for selected cuisines. Please see the complete list in the result file.
 
-| Mexican          		| Southern_US       | Indian        	  | Chinese         | 	Moroccan		|
-| ------------- 		| -------------     | -------------       | -------------   |------------- 		| 
-|corn tortillas         | buttermilk        | garam masala        |soy sauce        |ground cumin       |
-|flour tortillas        | butter            | ground turmeric     |corn starch      |ground cinnamon    |
-|salsa                  | chopped pecans    | cumin seed          |sesame oil       |chickpeas          |
-|avocado                | baking powder     | curry powder        |hoisin sauce     |olive oil          |
-|jalapeno chilies       | all-purpose flour | tumeric             |oyster sauce     |ground ginger      |
+| Mexican          		| Southern_US       | Indian        	  | Chinese              | 	Moroccan		 |
+| ------------- 		  | -------------     | -------------       | -------------        |------------- 	 | 
+|corn tortillas         | buttermilk        | garam masala        | soy sauce            |ground cumin       |
+|flour tortillas        | butter            | ground turmeric     | corn starch          |ground cinnamon    |
+|salsa                  | chopped pecans    | cumin seed          | sesame oil           |chickpeas          |
+|avocado                | baking powder     | curry powder        | hoisin sauce         |olive oil          |
+|jalapeno chilies       | all-purpose flour | tumeric             | oyster sauce         |ground ginger      |
+|black beans            | baking soda       | ghee                | light soy sauce      |cinnamon           |
+|chili powder           | vanilla extract   | green chilies       | dark soy sauce       |paprika            |
+|sour cream             | yellow corn meal  | basmati rice        | scallions            |ground coriander   |
+|ground cumin           | milk              | mustard seeds       | low sodium soy sauce |saffron threads    |
+|chopped cilantro fresh | salt              | plain yogurt        | fresh ginger         |carrots            |
